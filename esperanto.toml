@@ -36,9 +36,11 @@ broken_whitespace = ["  ", " ,", " .", " ?", " !", " ;"]
 #   - No words with only one letter (" a.", " a", " a ", "a ")
 #   - kaj tiel plu, Volumo, ekzemple,...
 #   - Mixed upper/lowercase in words (LaSi - mostly chemical elements?)
+#   - letter combinations that are hard to pronounce in Esperanto and only used in other languages
 abbreviation_patterns = [
   "[A-Z]+\\.*[A-Z]",
-  "ktp\\.|k\\.t\\.p\\.|ekz\\.|ca\\.|[V|v]ol\\.|gem\\.|[a|p]\\.\\sK\\.|Prof\\.|Ak\\.|anst\\.|bv\\.|k\\.|k\\.a\\.|k\\.c\\.|p\\.|v\\.|ĉ\\.|i\\.a\\.|t\\.n\\.|t\\.e\\.",
+  "ktp\\.|k\\.t\\.p\\.|ekz\\.|Ekz\\.|ca\\.|trad\\.|Trad\\.|eld\\.|Eld\\.|[V|v]ol\\.|gem\\.|[a|p]\\.\\sK\\.|Prof\\.|prof\\.|Ak\\.|anst\\.|bv\\.|k\\.|k\\.a\\.|k\\.c\\.|p\\.|v\\.|ĉ\\.|i\\.a\\.|t\\.n\\.|t\\.e\\.",
   "(\\s[A-Za-z]{1}[\\.|\\?|!]*$)|(^[A-Za-z]{1}\\s)|\\s[A-Za-z]{1}\\s",
   "[a-z][A-Z][a-z]",
+  "sch","Sch","sh","Sh","ch","Ch","cc","Cc","the","The",
 ]
