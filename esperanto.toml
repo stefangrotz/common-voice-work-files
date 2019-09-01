@@ -33,13 +33,14 @@ disallowed_symbols = [
 broken_whitespace = ["  ", " ,", " .", " ?", " !", " ;"]
 
 # Abbreviation examples for each regex, also cheating a bit and adding more regex which has nothing to do with abbreviations:
+#   - A.B or z.B.
+#   - kaj tiel plu, Volumo, ekzemple,... see https://eo.wikipedia.org/wiki/Mallongigo
 #   - No words with only one letter (" a.", " a", " a ", "a ")
-#   - kaj tiel plu, Volumo, ekzemple,...
 #   - Mixed upper/lowercase in words (LaSi - mostly chemical elements?)
 #   - letter combinations that are hard to pronounce in Esperanto and only used in other languages
 abbreviation_patterns = [
   "[A-Z]+\\.*[A-Z]",
-  "ktp\\.|k\\.t\\.p\\.|ekz\\.|Ekz\\.|str\\.|Str\\.|ca\\.|trad\\.|Trad\\.|eld\\.|Eld\\.|[V|v]ol\\.|gem\\.|[a|p]\\.\\sK\\.|Prof\\.|prof\\.|Ak\\.|anst\\.|bv\\.|k\\.|k\\.a\\.|k\\.c\\.|p\\.|v\\.|ĉ\\.|i\\.a\\.|t\\.n\\.|t\\.e\\.",
+  "ktp\\.|k\\.t\\.p\\.|[E|e]kz\\.|inkl\\.|[I|i]nĝ\\.|str\\.|Str\\.|ca\\.|[T|t]rad\\.|[E|e]ld\\.|[V|v]ol\\.|mag\\.|red\\.|prez\\.|proks\\.|gem\\.|[a|p]\\.\\sK\\.|[P|p]rof\\.|Ak\\.|anst\\.|bv\\.|k\\.|k\\.a\\.|k\\.c\\.|p\\.|v\\.|ĉ\\.|i\\.a\\.|t\\.n\\.|t\\.e\\.",
   "(\\s[A-Za-z]{1}[\\.|\\?|!]*$)|(^[A-Za-z]{1}\\s)|\\s[A-Za-z]{1}\\s",
   "[a-z][A-Z][a-z]",
   "sch","Sch","sh","Sh","ch","Ch","cc","Cc","the","The",
