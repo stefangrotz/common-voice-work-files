@@ -1,0 +1,16 @@
+# colect sentences
+
+awk 'length>3' alico4.txt > alico5..txt
+
+sed '/^.\{102\}./d' alico3.txt > alico4.txt
+
+sed -e 's/^[ \t]*//' alico2.txt > alico3.txt
+
+ sed '/^[[:lower:][:punct:]]/d' marta.txt > marta2.txt
+ 
+ sed '/[w|W|q|Q|x|X]/d' marta6.txt > marta7.txt
+
+
+ sed '/[w|W|q|Q|x|X]/d' cl.txt > awk 'length>3' > sed '/^.\{102\}./d' > sed -e 's/^[ \t]*//' > sed '/^[[:lower:][:punct:]]/d' 
+ 
+ 
