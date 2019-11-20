@@ -13,4 +13,13 @@ sed -e 's/^[ \t]*//' alico2.txt > alico3.txt
 
  sed '/[w|W|q|Q|x|X]/d' cl.txt > awk 'length>3' > sed '/^.\{102\}./d' > sed -e 's/^[ \t]*//' > sed '/^[[:lower:][:punct:]]/d' 
  
- 
+ # Wikpedia script
+# 100 random sentences
+sort -R wiki.eo.sort.txt |head -n 100 > wiki.eo.sample.txt
+
+# sort alphabetical and delete dublicates
+sort -u wiki.eo.txt > wiki.eo.sort.txt
+
+#count characters
+sed 's/\(.\)/\1\n/g' wiki.eo.txt | sort | uniq -ic > characters.eo.txt
+
