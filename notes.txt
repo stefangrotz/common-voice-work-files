@@ -23,3 +23,19 @@ sort -u wiki.eo.txt > wiki.eo.sort.txt
 #count characters
 sed 's/\(.\)/\1\n/g' wiki.eo.txt | sort | uniq -ic > characters.eo.txt
 
+# Aufräumen
+- count characters
+
+ckecken:
+- Administra centro 
+- "-sur-"
+- distrikto
+- departemento
+- kantono
+- s-ro
+- Vidu ankaŭ
+- river
+- mount
+- 
+
+
