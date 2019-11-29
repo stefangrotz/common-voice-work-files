@@ -1,28 +1,3 @@
-# colect sentences
-
-awk 'length>3' alico4.txt > alico5..txt
-
-sed '/^.\{102\}./d' alico3.txt > alico4.txt
-
-sed -e 's/^[ \t]*//' alico2.txt > alico3.txt
-
- sed '/^[[:lower:][:punct:]]/d' marta.txt > marta2.txt
- 
- sed '/[w|W|q|Q|x|X]/d' marta6.txt > marta7.txt
-
-
- sed '/[w|W|q|Q|x|X]/d' cl.txt > awk 'length>3' > sed '/^.\{102\}./d' > sed -e 's/^[ \t]*//' > sed '/^[[:lower:][:punct:]]/d' 
- 
- # Wikpedia script
-# 100 random sentences
-sort -R wiki.eo.sort.txt |head -n 100 > wiki.eo.sample.txt
-
-# sort alphabetical and delete dublicates
-sort -u wiki.eo.txt > wiki.eo.sort.txt
-
-#count characters
-sed 's/\(.\)/\1\n/g' wiki.eo.txt | sort | uniq -ic > characters.eo.txt
-
 # Aufräumen
 - count characters
 
@@ -36,6 +11,24 @@ ckecken:
 - Vidu ankaŭ
 - river
 - mount
-- 
+- Tb
+- oui
+- administra centro
+- ff
+- loĝantoj loĝantojn
+- La komunumo
+- la distrikto
+- departemento
+- departementa
+- situas en
+- estas parto
+- nomiĝas
+- "" ->"
+- Saint
+- Administre
+- Vilaĝservoj
+-Vidu
+-  te.
+- estas la urbo
 
 

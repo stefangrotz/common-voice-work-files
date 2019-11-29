@@ -39,4 +39,7 @@ sort -u wiki.eo.txt > wiki.eo.sort.txt
 ### count characters
 ```
 sed 's/\(.\)/\1\n/g' wiki.eo.txt | sort | uniq -ic > characters.eo.txt
+
+Alternative:
+awk -vFS="" '{for(i=1;i<=NF;i++)w[tolower($i)]++}END{for(i in w) print i,w[i]}' wiki.eo.no-dublicates.non-alphabetical.txt > signs.txt
 ```
