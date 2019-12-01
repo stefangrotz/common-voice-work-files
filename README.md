@@ -2,6 +2,13 @@
 
 notes and files for the esperanto version of common voice
 
+## Links
+* Common Voice in Esperanto: https://voice.mozilla.org/eo
+* Frontend translation: https://pontoon.mozilla.org/eo/common-voice/
+* Sentence Collector: https://common-voice.github.io/sentence-collector/#/
+* Official promo material: https://drive.google.com/drive/folders/1RfgsCI6-rs1crh7OhlxryXO5-zN8JREr
+
+
 
 ## useful bash snippets for sentence extraction from old books
 
