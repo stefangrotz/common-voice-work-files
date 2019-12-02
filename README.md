@@ -7,6 +7,7 @@ notes and files for the esperanto version of common voice
 * Frontend translation: https://pontoon.mozilla.org/eo/common-voice/
 * Sentence Collector: https://common-voice.github.io/sentence-collector/#/
 * Official promo material: https://drive.google.com/drive/folders/1RfgsCI6-rs1crh7OhlxryXO5-zN8JREr
+* Zilla Slab Font: https://github.com/mozilla/zilla-slab
 
 
 
