@@ -28,10 +28,18 @@ awk 'length>3' alico4.txt > alico5..txt
  sed '/^.\{102\}./d' alico3.txt > alico4.txt
 ```
 
+### Delete all lines beginning with lower case
+```
+ sed '/^[[:lower:][:punct:]]/d' marta.txt > marta2.txt
+```
+### Delete all lines containing numbers
+```
+sed '/[0-9]/d' filename.txt
+```
+
 ### Other useful comands
 ```
 sed -e 's/^[ \t]*//' alico2.txt > alico3.txt
- sed '/^[[:lower:][:punct:]]/d' marta.txt > marta2.txt
 ```
 
 ### 100 random sentences
