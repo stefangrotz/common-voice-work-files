@@ -18,9 +18,9 @@ notes and files for the esperanto version of common voice
 awk 'length>3' alico4.txt > alico5..txt
 ```
 
-### delete all lines containing w p or x
+### delete all lines containing w, q, x or y
 ```
- sed '/[w|W|q|Q|x|X]/d' marta6.txt > marta7.txt
+ sed '/[w|W|q|Q|x|X|y|Y]/d' marta6.txt > marta7.txt
 ```
 
 ### delete long lines
