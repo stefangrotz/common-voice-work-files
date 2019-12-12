@@ -1,4 +1,4 @@
-# common-voice-esperanto
+# common-voice-files
 
 Notes and files for common voice in German and Esperanto
 
