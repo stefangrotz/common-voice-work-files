@@ -30,7 +30,7 @@ awk 'length>3' alico4.txt > alico5..txt
  sed '/^.\{102\}./d' alico3.txt > alico4.txt
 ```
 
-### Delete all lines with less than 14 words
+### Delete all lines with more or eqal 14 words
 ```
 awk 'NF<=14' europarl-de-wip.txt > lees14.txt
 ```
