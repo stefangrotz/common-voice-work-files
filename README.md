@@ -38,7 +38,12 @@ awk 'length>3' alico4.txt > alico5..txt
 sed '/[0-9]/d' filename.txt
 ```
 
-### Other useful comands
+### Delete all lines containing abbreviations
+```
+sed '/[A-Z][A-Z]/d' europarl-de-wip.txt > eu2.txt
+```
+
+### Forgot what this does
 ```
 sed -e 's/^[ \t]*//' alico2.txt > alico3.txt
 ```
