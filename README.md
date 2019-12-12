@@ -17,9 +17,11 @@ Notes and files for common voice in German and Esperanto
 awk 'length>3' alico4.txt > alico5..txt
 ```
 
-### delete all lines containing w, q, x or y (non Esperanto alphabet letters)
+### delete all lines containing certain letters
 ```
  sed '/[w|W|q|Q|x|X|y|Y]/d' marta6.txt > marta7.txt
+ 
+ sed '/[ð|ð|À|Á|Â|Ã|Ä|Å|Æ|Ç|È|É|Ê|Ë|Ì|Í|İ|Î|Ï|Ð|Ñ|Ò|Ó|Ô|Õ|Ö|Ø|Ù|Ú|Û|Û|Ü|Ý|Ž|à|á|â|ã|å|æ|ç|è|é|ê|ë|ì|í|î|ï|ð|ñ|ò|ó|ô|õ|ø|ù|ú|û|ý|þ|ÿ|ā|ă|ą|ć|ċ|č|ď|đ|ē|ĕ|ė|ę|ě|ğ|ġ|ģ|ħ|ĩ|ī|ĭ|į|ı|ķ|ĸ|ĺ|ļ|ľ|ŀ|ł|ń|ņ|ņ|ṫ|š|Ў|ḃ|ḋ|ḟ|ṁ|ṗ|ṡ|ẁ|ẃ|ẅ|ẛ|ỳ|α|β|Γ|γ|Δ|δ|ε|ζ|η|Θ|θ|ι|κ|Λ|λ|μ|ν|Ξ|ξ|Π|π|ρ|Σ|σ|ς|τ]/d' europarl-de-wip.txt > eu2.txt
 ```
 
 ### delete long lines
