@@ -8,6 +8,7 @@ Notes and files for common voice in German and Esperanto
 * Sentence Collector: https://common-voice.github.io/sentence-collector/#/
 * Official promo material: https://drive.google.com/drive/folders/1RfgsCI6-rs1crh7OhlxryXO5-zN8JREr
 * Zilla Slab Font: https://github.com/mozilla/zilla-slab
+* Europarl dataset containing speeches from the EU in many languages: http://www.statmt.org/europarl/
 
 
 ## useful bash snippets for sentence extraction from old books
@@ -27,6 +28,11 @@ awk 'length>3' alico4.txt > alico5..txt
 ### delete long lines
 ```
  sed '/^.\{102\}./d' alico3.txt > alico4.txt
+```
+
+### Delete all lines with less than 14 words
+```
+awk 'NF<=14' europarl-de-wip.txt > lees14.txt
 ```
 
 ### Delete all lines beginning with lower case
