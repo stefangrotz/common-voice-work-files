@@ -1,14 +1,13 @@
 # common-voice-esperanto
 
-notes and files for the esperanto version of common voice
+Notes and files for common voice in German and Esperanto
 
 ## Links
-* Common Voice in Esperanto: https://voice.mozilla.org/eo
+* Common Voice: https://voice.mozilla.org/
 * Frontend translation: https://pontoon.mozilla.org/eo/common-voice/
 * Sentence Collector: https://common-voice.github.io/sentence-collector/#/
 * Official promo material: https://drive.google.com/drive/folders/1RfgsCI6-rs1crh7OhlxryXO5-zN8JREr
 * Zilla Slab Font: https://github.com/mozilla/zilla-slab
-
 
 
 ## useful bash snippets for sentence extraction from old books
@@ -18,7 +17,7 @@ notes and files for the esperanto version of common voice
 awk 'length>3' alico4.txt > alico5..txt
 ```
 
-### delete all lines containing w, q, x or y
+### delete all lines containing w, q, x or y (non Esperanto alphabet letters)
 ```
  sed '/[w|W|q|Q|x|X|y|Y]/d' marta6.txt > marta7.txt
 ```
