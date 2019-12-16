@@ -9,6 +9,7 @@ Notes and files for common voice in German and Esperanto
 * Official promo material: https://drive.google.com/drive/folders/1RfgsCI6-rs1crh7OhlxryXO5-zN8JREr
 * Zilla Slab Font: https://github.com/mozilla/zilla-slab
 * Europarl dataset containing speeches from the EU in many languages: http://www.statmt.org/europarl/
+* OSCAR or Open Super-large Crawled ALMAnaCH coRpus https://traces1.inria.fr/oscar/
 
 
 ## useful bash snippets for sentence extraction from old books
