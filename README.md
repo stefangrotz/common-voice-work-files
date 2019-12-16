@@ -55,6 +55,15 @@ sed '/[A-Z][A-Z]/d' europarl-de-wip.txt > eu2.txt
 sed -e 's/^[ \t]*//' alico2.txt > alico3.txt
 ```
 
+### Delete lines containing slashes
+```
+sed '\~\/~d'  OSCAR-corpus-eo_dedup.txt > 1.txt
+```
+### Delete lines with some sting
+```
+grep -v "our" t21.txt > t22.txt
+```
+
 ### 100 random sentences
 ```
 sort -R wiki.eo.sort.txt |head -n 100 > wiki.eo.sample.txt
