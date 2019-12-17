@@ -69,6 +69,22 @@ grep -v "our" t21.txt > t22.txt
 ```
 grep -v " [fF] "
 ```
+### Delete single letters plus full stops
+```
+grep -v " .\."
+```
+### Select only lines containing . ? or !
+```
+awk '/\./ || /\?/ || /\!/'
+```
+
+### Helpfull Regex:
+```
+Esperanto Alphabet: [a-zA-ĉĈĝĜĥĤĵĴŝŜŭŬ]
+German Alphabet: [a-zA-ZäöüßÄÖÜ]
+Cyrilic Alphabet: [аАбБвВгГдДеЕёЁжЖзЗиИйЙкКлЛмМнНоОпПрРсСтТуУфФхХцЦчЧшШщЩъЪыЫьЬэЭюЮяЯ]
+```
+
 
 ### 100 random sentences
 ```
