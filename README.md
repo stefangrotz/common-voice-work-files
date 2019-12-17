@@ -59,9 +59,15 @@ sed -e 's/^[ \t]*//' alico2.txt > alico3.txt
 ```
 sed '\~\/~d'  OSCAR-corpus-eo_dedup.txt > 1.txt
 ```
-### Delete lines with some sting
+
+### Delete lines with some string
 ```
 grep -v "our" t21.txt > t22.txt
+```
+
+### Delete single letters in text
+```
+grep -v " [fF] "
 ```
 
 ### 100 random sentences
