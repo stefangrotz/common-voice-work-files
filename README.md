@@ -83,6 +83,8 @@ awk '/\./ || /\?/ || /\!/'
 Esperanto Alphabet: [a-zA-ĉĈĝĜĥĤĵĴŝŜŭŬ]
 German Alphabet: [a-zA-ZäöüßÄÖÜ]
 Cyrilic Alphabet: [аАбБвВгГдДеЕёЁжЖзЗиИйЙкКлЛмМнНоОпПрРсСтТуУфФхХцЦчЧшШщЩъЪыЫьЬэЭюЮяЯ]
+Word endings:
+\w+(as|is|os|us|o|oj|n|u|uj|ujn|e|en|a|an|i|aŭ|aj|ajn|el|al|es|or|am|un|ur|ej|ar|in|es|el|er|ep|ok|nt|il)\b
 ```
 
 
