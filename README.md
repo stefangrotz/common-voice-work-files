@@ -80,11 +80,21 @@ awk '/\./ || /\?/ || /\!/'
 
 ### Helpfull Regex:
 ```
-Esperanto Alphabet: [a-zA-ĉĈĝĜĥĤĵĴŝŜŭŬ]
+Esperanto Alphabet: [a-zA-ZĉĈĝĜĥĤĵĴŝŜŭŬ]
 German Alphabet: [a-zA-ZäöüßÄÖÜ]
 Cyrilic Alphabet: [аАбБвВгГдДеЕёЁжЖзЗиИйЙкКлЛмМнНоОпПрРсСтТуУфФхХцЦчЧшШщЩъЪыЫьЬэЭюЮяЯ]
 Word endings:
-\w+(as|is|os|us|o|oj|n|u|uj|ujn|e|en|a|an|i|aŭ|aj|ajn|el|al|es|or|am|un|ur|ej|ar|in|es|el|er|ep|ok|nt|il)\b
+\w+(i|as|is|os|us|o|oj|jn|n|u|uj|e|en|em|a|an|aj|ajn|el|al|es|or|om|am|un|ur|ej|ar|in|es|el|er|ep|ok|nt|il|ŭ)\b
+[a-zA-ĉĈĝĜĥĤĵĴŝŜŭŬ]+(i|as|is|os|us|o|oj|jn|n|u|uj|e|en|em|a|an|aj|ajn|el|l|es|or|om|am|un|ur|ej|ar|in|es|el|er|ep|ok|nt|il|ĉ|ŭ|t)\b
+[a-zA-ĉĈĝĜĥĤĵĴŝŜŭŬ]+[isojuenmalbrmrĉpktĉldtŭ]\b
+any letter, point, any letter point
+.\..\.
+One letter word:
+ \w{1} 
+Question marks in the middle of words:
+ \w[?]\w
+Point in the middle of words (mainly domains):
+\w[.]\w
 ```
 
 
