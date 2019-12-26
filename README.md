@@ -81,6 +81,7 @@ awk '/\./ || /\?/ || /\!/'
 ### Helpfull Regex:
 ```
 Esperanto Alphabet: [a-zA-ZĉĈĝĜĥĤĵĴŝŜŭŬ]
+Single letter in EO-Alphabet: [a-zA-ZĉĈĝĜĥĤĵĴŝŜŭŬ]{1} 
 German Alphabet: [a-zA-ZäöüßÄÖÜ]
 Cyrilic Alphabet: [аАбБвВгГдДеЕёЁжЖзЗиИйЙкКлЛмМнНоОпПрРсСтТуУфФхХцЦчЧшШщЩъЪыЫьЬэЭюЮяЯ]
 Word endings:
