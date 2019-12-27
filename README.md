@@ -79,15 +79,36 @@ awk '/\./ || /\?/ || /\!/'
 ```
 
 ### Helpfull Regex:
+
+Esperanto Alphabet: 
 ```
-Esperanto Alphabet: [a-zA-ZĉĈĝĜĥĤĵĴŝŜŭŬ]
-Single letter in EO-Alphabet: [a-zA-ZĉĈĝĜĥĤĵĴŝŜŭŬ]{1} 
-German Alphabet: [a-zA-ZäöüßÄÖÜ]
+[a-zA-ZĉĈĝĜĥĤĵĴŝŜŭŬ]
+```
+Single letter in EO-Alphabet:
+```
+ [a-zA-ZĉĈĝĜĥĤĵĴŝŜŭŬ]{1} 
+ ```
+German Alphabet: 
+```
+[a-zA-ZäöüßÄÖÜ]
+All non german letters: [^\u0000-\u007BäöüßÄÖÜ„“‚‘’–]
+```
+Alphabets:
+```
 Cyrilic Alphabet: [аАбБвВгГдДеЕёЁжЖзЗиИйЙкКлЛмМнНоОпПрРсСтТуУфФхХцЦчЧшШщЩъЪыЫьЬэЭюЮяЯ]
+Arabic alphabet: [\u0600-\u06FF] or [ء-ي]
+Extended arabic alphabet: /[\u0600-\u06ff]|[\u0750-\u077f]|[\ufb50-\ufbc1]|[\ufbd3-\ufd3f]|[\ufd50-\ufd8f]|[\ufd92-\ufdc7]|[\ufe70-\ufefc]|[\uFDF0-\uFDFD]/
+Chinese and japanese alphabet: [\u2E80-\u2FD5\u3190-\u319f\u3400-\u4DBF\u4E00-\u9FCC\uF900-\uFAAD]
+```
 Word endings:
+```
 \w+(i|as|is|os|us|o|oj|jn|n|u|uj|e|en|em|a|an|aj|ajn|el|al|es|or|om|am|un|ur|ej|ar|in|es|el|er|ep|ok|nt|il|ŭ)\b
 [a-zA-ĉĈĝĜĥĤĵĴŝŜŭŬ]+(i|as|is|os|us|o|oj|jn|n|u|uj|e|en|em|a|an|aj|ajn|el|l|es|or|om|am|un|ur|ej|ar|in|es|el|er|ep|ok|nt|il|ĉ|ŭ|t)\b
 [a-zA-ĉĈĝĜĥĤĵĴŝŜŭŬ]+[isojuenmalbrmrĉpktĉldtŭ]\b
+```
+
+Word patterns:
+```
 any letter, point, any letter point
 .\..\.
 One letter word:
