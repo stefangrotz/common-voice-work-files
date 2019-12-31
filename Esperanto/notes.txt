@@ -4,6 +4,8 @@
 ckecken:
 - Administra centro 
 - "-sur-"
+- Fontaine
+- Saint 
 - distrikto
 - departemento
 - kantono
@@ -12,6 +14,7 @@ ckecken:
 - river
 - mount
 - Tb
+- college
 - oui
 - administra centro
 - ff
@@ -30,5 +33,7 @@ ckecken:
 -Vidu
 -  te.
 - estas la urbo
+-Li futbalis
+- ♯
 
 

@@ -87,7 +87,7 @@ Esperanto Alphabet:
 Single letter in EO-Alphabet:
 ```
  [a-zA-ZĉĈĝĜĥĤĵĴŝŜŭŬ]{1} 
- All non EO-letters: [^\u0000-\u007BĉĈĝĜĥĤĵĴŝŜŭŬ„“‚‘’–―…]
+ All non EO-letters: [^\u0000-\u007BĉĈĝĜĥĤĵĴŝŜŭŬ„“‚‘’”–―—‑…«»]
  ```
 German Alphabet: 
 ```
