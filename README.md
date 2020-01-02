@@ -127,6 +127,11 @@ Point in the middle of words (mainly domains):
 sort -R wiki.eo.sort.txt |head -n 100 > wiki.eo.sample.txt
 ```
 
+### cut file in equal chunks
+```
+split -l 1000 prefix-
+```
+
 ### sort alphabetical and delete dublicates
 ```
 sort -u wiki.eo.txt > wiki.eo.sort.txt
