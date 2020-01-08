@@ -1,6 +1,7 @@
 # common-voice-files
 
 Notes and files for common voice in German and Esperanto
+* Work files for Esperanto now got their own project: https://github.com/parolrekonado
 
 ## Links
 * Common Voice: https://voice.mozilla.org/
