@@ -2,8 +2,8 @@
 # jq https://stedolan.github.io/jq/
 
 # insert username and API key from https://languagetoolplus.com/api-access
-username='stefan.grotz@posteo.de'
-apiKey='GpFJlMYrmm0f7U0K'
+username='exampl@mail.me'
+apiKey='XXXX'
 
 while IFS= read -r line; do
   
